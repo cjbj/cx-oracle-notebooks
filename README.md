@@ -2,6 +2,17 @@
 
 The repository contains Jupyter notebooks showing best practices for using cx_Oracle, the Python DB API for Oracle Database.
 
+I am releasing them one-by-one.
+
+The final list of notebooks will be:
+- Connecting
+- Queries
+- DML
+- CSV
+- JSON and SODA
+- PL/SQL
+- Objects
+
 ## Setup
 
 An existing Oracle Database is required.
