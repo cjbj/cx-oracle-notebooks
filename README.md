@@ -10,11 +10,17 @@ The JSON demo assumes Oracle Database and Oracle Client are 21c.
 
 ### Install Python 3
 
-Install Jupyter (see https://jupyter.org/install):
+See https://www.python.org/downloads/
+
+### Install Jupyter
+
+See https://jupyter.org/install:
 
     pip install notebook
 
-### Install cx_Oracle (see https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html)
+### Install cx_Oracle
+
+See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html:
 
     pip install cx_Oracle
 
@@ -22,7 +28,9 @@ Install Jupyter (see https://jupyter.org/install):
 
     pip install numpy matplotlib
 
-### To setup the cx_Oracle sample tables On macOS set up libclntsh by finding the library directory
+### To setup the cx_Oracle sample tables
+
+On macOS set up libclntsh by finding the library directory
 
     python
     import cx_Oracle
@@ -42,9 +50,9 @@ Clone/download https://github.com/oracle/python-cx_Oracle/tree/master/samples
 
     cd python-cx_Oracle/samples
 
-Review python-cx_Oracle/samples/README.md
+Review `python-cx_Oracle/samples/README.md`
 
-Edit python-cx_Oracle/samples/sample_env.py and set desired credentials and connection string
+Edit `python-cx_Oracle/samples/sample_env.py` and set desired credentials and connection string
 
     export CX_ORACLE_SAMPLES_MAIN_USER=pythondemo
     export CX_ORACLE_SAMPLES_MAIN_PASSWORD=welcome
@@ -60,12 +68,6 @@ Install the schema
 
     python setup_samples.py
 
-### Edit the cloud example credentials and connection string in the first notebook
-
-### Set this environment variable before starting Jupyter:
-
-    export CLOUD_PASSWORD="whatever"
-
 ### Start Jupyter:
 
     cd ../..
@@ -74,3 +76,7 @@ Install the schema
 Load each notebook *.ipynb file and step through it
 
 Before running the notebooks cells, edit the connect string(s) near the top of each notebook.
+
+The Connection notebook has an example that connects to Oracle Cloud.  The
+wallet setup shown in the notebook is needed for this to be runnable.  Also run
+``export CLOUD_PASSWORD="whatever"`` before starting that notebook.
