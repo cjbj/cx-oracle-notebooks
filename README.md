@@ -15,6 +15,12 @@ The final list of notebooks will be:
 - PL/SQL
 - Objects
 
+The notebook let you step and execute Python code:
+
+![A screenshot of a notebook running in a browser](./images/jupyter-notebook-screenshot.png)
+
+## Other resources
+
 You may also be interested in the tutorial [Python and Oracle Database
 Tutorial: Scripting for the
 Future](https://oracle.github.io/python-cx_Oracle/samples/tutorial/Python-and-Oracle-Database-Scripting-for-the-Future.html). This
@@ -22,7 +28,7 @@ is also found in "LiveLabs" format
 [here](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=766&clear=180&session=17632812830564),
 which lets you easily run it in Oracle Cloud.
 
-## Setup
+# Setup
 
 An existing Oracle Database is required.
 
