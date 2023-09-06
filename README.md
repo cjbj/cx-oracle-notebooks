@@ -1,12 +1,14 @@
 # Python cx_Oracle Notebooks, 2022
 
-The repository contains Jupyter notebooks showing best practices for using
-[cx_Oracle](https://pypi.org/project/cx-Oracle/), the Python DB API for Oracle
-Database.
+**Note that cx_Oracle's latest version was renamed as python-oracledb. New
+notebooks are at https://github.com/cjbj/python-oracledb-notebooks**
 
-I am releasing them one-by-one.
+This repository contains Jupyter notebooks showing best practices for using
+[cx_Oracle](https://pypi.org/project/cx-Oracle/), the older Python DB API for
+Oracle Database.
 
-The final list of notebooks will be:
+The notebooks cover:
+
 - Connecting
 - Queries
 - DML
